@@ -57,7 +57,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a style="color: #fff;" class="nav-link active" aria-current="page" href="index.php">Home</a>
-            <a style="color: #fff;" class="nav-link" href="viewFeedback.php">View FeedBacks</a>
+            <a style="color: #fff;" class="nav-link" href="viewFeedback.php">FeedBacks</a>
             <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
@@ -67,13 +67,13 @@
 </header>
 <main><h1 style="margin: 59px 0px;">Student Management System</h1>
     <form action="/sms/php/infoSumit.php" method="post">
-    <div class="input-container">
-      <input style="color: black; background-color: floralwhite;"  class="form-control" required type="text" placeholder="Name"    id="name"   name="name"   >
-      <input style="color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="Roll No."  id="rollno"  name="rollno"  >
-      <input style="color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="O.S. Marks"     id="S1"    name="s1"    >
-      <input  style="color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="C Language Marks"     id="S2"    name="s2"    >
-      <input style="color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.C. Marks"     id="S3"    name="s4"    >
-      <input style="color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.E. Marks"     id="S4"    name="s3"    >
+    <div style="display: flex; flex-wrap: wrap; width: 100%;  gap:24px;" class="input-container">
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="text" placeholder="Name"    id="name"   name="name"   >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="Roll No."  id="rollno"  name="rollno"  >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="O.S. Marks"     id="S1"    name="s1"    >
+      <input  style="width:400px; color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="C Language Marks"     id="S2"    name="s2"    >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.C. Marks"     id="S3"    name="s4"    >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.E. Marks"     id="S4"    name="s3"    >
     </div>
     
     <button  class="button btn btn-outline-info" type="submit" id="submit">Add Student Information</button>
