@@ -70,10 +70,10 @@
     <div style="display: flex; flex-wrap: wrap; width: 100%;  gap:24px;" class="input-container">
       <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="text" placeholder="Name"    id="name"   name="name"   >
       <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="Roll No."  id="rollno"  name="rollno"  >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="O.S. Marks"     id="S1"    name="s1"    >
-      <input  style="width:400px; color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="C Language Marks"     id="S2"    name="s2"    >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.C. Marks"     id="S3"    name="s4"    >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="D.E. Marks"     id="S4"    name="s3"    >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="COA Marks"     id="S1"    name="s1"    >
+      <input  style="width:400px; color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="OOPJ Marks"     id="S2"    name="s2"    >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="ECs II Marks"     id="S3"    name="s4"    >
+      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="DSA Marks"     id="S4"    name="s3"    >
     </div>
     
     <button  class="button btn btn-outline-info" type="submit" id="submit">Add Student Information</button>
@@ -91,10 +91,10 @@
                     <!-- <th>ID</th> -->
                     <th>Roll No.</th>
                     <th>Name</th>
-                    <th>O.S.</th>
-                    <th>C </th>
-                    <th>D.C.</th>
-                    <th>D.E.</th>
+                    <th>COA</th>
+                    <th>OOPJ </th>
+                    <th>ECs-II</th>
+                    <th>DSA</th>
                     <th>Average</th>
                     <th>Status</th>
                     <th>Action</th>
@@ -149,7 +149,11 @@ class=" bd-footer py-4 py-md-5 mt-5 ">
     <div class="col-6 col-lg-2 mb-3">
       <h5>Our Team</h5>
       <ul class="list-unstyled">
-        <li class="mb-2"><a href=""></a></li>
+        <li class="mb-2"><a href="">Bimla Bai</a></li>
+        <li class="mb-2"><a href="">Isha</a></li>
+        <li class="mb-2"><a href="">Kashish Kansra</a></li>
+        <li class="mb-2"><a href="">Sneha Aneja</a></li>
+       
         
 
       </ul>
@@ -158,23 +162,23 @@ class=" bd-footer py-4 py-md-5 mt-5 ">
 
     <div class="col-6 col-lg-2 mb-3">
       <h5 id="aboutUs">About Us</h5>
-      <p style="color: rgb(241, 231, 231);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet necessitatibus magni sapiente autem recusandae</p>
+      <p style="color: rgb(241, 231, 231);">This project is based upon the Management of student Records!</p>
     </div>
-    <div class="col-6 col-lg-2 mb-3">
+    <!-- <div class="col-6 col-lg-2 mb-3">
       <h5 id="contectUs">Contect Us On</h5>
       <ul class="list-unstyled">
         <div class="center">
-          <li class="mb-2"><a href="https://www.instagram.com/parteek_bamal_"><i
+          <li class="mb-2"><a href=""><i
                 class="fa-brands fa-square-instagram  insta"></a></i></li>
-          <li class="mb-2"><a href="https://t.snapchat.com/ACPGXEOY"><i
+          <li class="mb-2"><a href=""><i
                 class="snap fa-brands fa-square-snapchat"></a></i></li>
                 <li style="color: #fff;" ></li>
                 <li style="color: #fff;" ></li>
-          <!-- <li class="mb-2"><a href><i
-                class="fb fa-brands fa-square-facebook"></a></i></li> -->
+          <li class="mb-2"><a href><i
+                class="fb fa-brands fa-square-facebook"></a></i></li>
         </div>
       </ul>
-    </div>
+    </div> -->
 
     <div  id="feedback" class="feedback col-6 col-lg-2 mb-3">
       <h5>Your Feeback</h5>
