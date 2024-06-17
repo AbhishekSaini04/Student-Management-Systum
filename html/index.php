@@ -70,10 +70,10 @@
     <div style="display: flex; flex-wrap: wrap; width: 100%;  gap:24px;" class="input-container">
       <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="text" placeholder="Name"    id="name"   name="name"   >
       <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="Roll No."  id="rollno"  name="rollno"  >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="COA Marks"     id="S1"    name="s1"    >
-      <input  style="width:400px; color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="OOPJ Marks"     id="S2"    name="s2"    >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="ECs II Marks"     id="S3"    name="s4"    >
-      <input style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="DSA Marks"     id="S4"    name="s3"    >
+      <input min="0" max="100" style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="COA Marks"     id="S1"    name="s1"    >
+      <input min="0" max="100"  style="width:400px; color: black; background-color: floralwhite;" class="form-control" required type="number" placeholder="OOPJ Marks"     id="S2"    name="s2"    >
+      <input min="0" max="100" style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="ECs II Marks"     id="S3"    name="s4"    >
+      <input min="0" max="100" style="width:400px; color: black; background-color: floralwhite;"  class="form-control" required type="number" placeholder="DSA Marks"     id="S4"    name="s3"    >
     </div>
     
     <button  class="button btn btn-outline-info" type="submit" id="submit">Add Student Information</button>
